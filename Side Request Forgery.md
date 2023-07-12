@@ -2,7 +2,15 @@
 
 
 Server-side request forgery attack allows attacker anto to trick server-side applications into allowing access to the server modifying files. ``SSRF can be successful if the target application reads that from a url without sanitizing it.``
-
+--- ---
+**`MITIGATION`**
+```
+1.Mitigate with firewall
+2.Whitelisting and DNS Resolution
+3.Authentication on Internal Services
+4.Response Handling
+5.Validation of user input
+```
 --- ---
 
 **`Common Attacks`**
