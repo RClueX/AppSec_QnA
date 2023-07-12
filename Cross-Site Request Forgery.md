@@ -155,25 +155,3 @@ More information check the following video ---> https://www.youtube.com/watch?v=
 
 ---
 
-## CSRF where token is duplicated in cookie
-
-An attacker can exploit a CSRF vulnerability by utilizing cookies and tokens obtained from another account to perform unauthorized actions on the targeted website. This can be done by providing a set of cookies and tokens to the website, which will allow the attacker to act as the legitimate user. The actions that can be performed are diverse, it can include unauthorized purchases, modification of account information and even deletion of data.
-
-====Did not work when i try it==
-
-Steps:
-- Connect to your account (Will generate CSRF (Token + Key) that will be transmited to another user)
-- Intercept the request or copy the **CSRF token & key (cookie)** (Your account)
-- Try injecting cookie and token in an other user account 
-- Craft a payload (template) + ---> (Allow injection of the CSRF key cookie in the header)
-	- Find a place in the website were you can make a request with parameters and include cookie
-	- Change the request for `?search=XYZ%0d%0aSet-Cookie:%20csrf=CSRF_Duplicate` and check if you can inject a cookie via the request (only working if search does not has CSRF...)
-	- If you can, use the default template (remove the automation)
-	- Insert the following line
-		- `<input type="hidden" name="csrf" value="SAME_CSRF_TOKEN_THEN_COOKIE" />`
-	 - Insert the CSRF cookie with img source and redirect on error (will provoque error)
-		 - 1.  `<img src="https://YOUR-LAB-ID.web-security-academy.net/?search=test%0d%0aSet-Cookie:%20csrf=fake" onerror="document.forms[0].submit();"/>
-
-More information check the following video https://www.youtube.com/watch?v=Hqr0qkvP6rY
-
----
