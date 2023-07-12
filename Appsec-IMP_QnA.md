@@ -5,7 +5,7 @@ Server-side request forgery attack allows attacker anto to trick server-side app
 
 --- ---
 
-`**Common Attacks**`
+**`Common Attacks`**
 
 Attacks Against the Server Itself
 - Attacker induces the application to make an HTTP request back to the server that is hosting the application (via loopback)
