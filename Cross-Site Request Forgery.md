@@ -13,7 +13,7 @@ When a website sends a data request to another website on behalf of a user along
     5. Custom Headers for Requests
 ```
 --- ---
-
+`Generate CSRF PoC`
 In Burp Suite Pro, you can use the tool to demonstrate a CSRF vulnerability by creating a proof of concept (PoC) using a request that does not include a CSRF token. This request can be used to update client information, and will show how an attacker can exploit the lack of CSRF protection to make unauthorized changes.
 
 **Right Click --> Engagement Tools --> Generate CSRF PoC**
