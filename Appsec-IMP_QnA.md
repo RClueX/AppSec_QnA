@@ -1,4 +1,4 @@
-**`1.Server-Side Request Forgery (SSRF)`**
+**`Server-Side Request Forgery (SSRF)`**
 
 Server-side request forgery attack allows attacker anto to trick server-side applications into allowing access to the server modifying files.
 
