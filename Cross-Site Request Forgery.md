@@ -58,7 +58,7 @@ GET REQUEST --> HTML (What the evil server would have)
 
 ---
 **`METHOD OF TEST CSRF ATTACK`**
-## No CSRF Protection
+##### No CSRF Protection
 
 Another way to test for vulnerabilities related to CSRF is to observe if the application does not have any CSRF token implemented. This can be done by checking the requests made by the application and verifying if there are any tokens being used to protect against CSRF attacks. If there are no tokens present, it may indicate a vulnerability in the application's security.
 
@@ -68,7 +68,7 @@ Steps:
 
 ---
 
-## Remove CSRF Token
+##### Remove CSRF Token
 
 Another way to test for vulnerabilities related to CSRF is to observe if the application's security can be bypassed by removing the CSRF token from a request. This can be done by intercepting a request that includes a CSRF token, removing the token, and forwarding the modified request to the server to see if it is still accepted. If the request is accepted without the token, it may indicate a vulnerability in the application's CSRF protection.
 
@@ -80,7 +80,7 @@ Steps:
 
 ---
 
-## Change Request Type
+##### Change Request Type
 
 Another way to test for vulnerabilities related to CSRF is to observe if the application's security can be bypassed by changing the request type from POST to GET. This can be done by intercepting a POST request that includes a CSRF token, changing the request method from POST to GET, and forwarding the modified request to the server to see if it is still accepted. If the request is accepted without the token, it may indicate a vulnerability in the application's CSRF protection.
 
