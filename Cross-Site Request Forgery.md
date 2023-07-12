@@ -81,7 +81,7 @@ Steps:
 
 ---
 
-##### Change Request Type
+##### `Change Request Type`
 
 Another way to test for vulnerabilities related to CSRF is to observe if the application's security can be bypassed by changing the request type from POST to GET. This can be done by intercepting a POST request that includes a CSRF token, changing the request method from POST to GET, and forwarding the modified request to the server to see if it is still accepted. If the request is accepted without the token, it may indicate a vulnerability in the application's CSRF protection.
 
@@ -92,7 +92,7 @@ Steps:
 
 ---
 
-## Client-Side Redirect
+##### `Client-Side Redirect`
 
 The process of changing a user's email address may be hindered by security measures such as the refer header, which requires the user to first visit a page on the website before making changes. However, if a client-side redirect vulnerability is discovered, an attacker may be able to exploit it for a CSRF attack. This is done by crafting a GET request in the redirect, which can then be used to perform malicious actions, such as changing various informations.
 
@@ -106,7 +106,7 @@ Steps:
 
 ---
 
-## Change Request Type (Overwrite)
+##### `Change Request Type (Overwrite)`
 
 It may not be possible to change a POST request to a GET request, but it is sometimes possible to override this by modifying the PoC provided by BurpSuite and forcing the request to be made via a GET request.
 
@@ -116,7 +116,7 @@ Steps:
 - Append automation
 - Hide the POST request with following input `<form action="...` ---> `<input type="hidden" name="_method" value="POST">` 
 
-## CSRF token from another user
+##### `CSRF token from another user`
 
 Another way to test for vulnerabilities related to CSRF is to observe if the application's security can be bypassed by using a CSRF token from another user. This can be done by intercepting a request that includes a CSRF token, extracting the token from the request and using it in another user request, and forwarding the modified request to the server to see if it is still accepted. If the request is accepted using a token of another user, it may indicate that the tokens are not properly linked to the user session and the application may be vulnerable to CSRF attacks.
 
@@ -130,7 +130,7 @@ Steps:
 
 ---
 
-## CSRF token &  key from another user (Work/Dont Work)
+##### `CSRF token &  key from another user (Work/Dont Work)`
 
 Another way to test for vulnerabilities related to CSRF is to observe if the application's security can be bypassed by using a CSRF token and key (cookie) from another user. This can be done by intercepting a request that includes a CSRF token and key, extracting the token and key from the request and using them in another user request, and forwarding the modified request to the server to see if it is still accepted. If the request is accepted using a token and key of another user, it may indicate that the tokens and keys are not properly linked to the user session and the application may be vulnerable to CSRF attacks.
 
