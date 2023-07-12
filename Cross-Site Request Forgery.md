@@ -69,7 +69,7 @@ Steps:
 
 ---
 
-##### Remove CSRF Token
+##### `Remove CSRF Token`
 
 Another way to test for vulnerabilities related to CSRF is to observe if the application's security can be bypassed by removing the CSRF token from a request. This can be done by intercepting a request that includes a CSRF token, removing the token, and forwarding the modified request to the server to see if it is still accepted. If the request is accepted without the token, it may indicate a vulnerability in the application's CSRF protection.
 
