@@ -57,7 +57,7 @@ GET REQUEST --> HTML (What the evil server would have)
 ```
 
 ---
-
+**`METHOD OF TEST CSRF ATTACK`**
 ## No CSRF Protection
 
 Another way to test for vulnerabilities related to CSRF is to observe if the application does not have any CSRF token implemented. This can be done by checking the requests made by the application and verifying if there are any tokens being used to protect against CSRF attacks. If there are no tokens present, it may indicate a vulnerability in the application's security.
