@@ -63,3 +63,4 @@ SQL
 `EXECUTE sp_select_user 'admin', 'password';`
 
 This would return all of the rows in the users table where the username is `admin` and the password is `password`.
+---
