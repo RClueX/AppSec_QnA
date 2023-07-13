@@ -1,3 +1,4 @@
+**Stored Procedure**
 A stored procedure is a group of SQL statements that are grouped together and stored in a database. Stored procedures can be used to perform a variety of tasks, such as:
 
 Inserting, updating, or deleting data from a database
@@ -15,7 +16,4 @@ Here is an example of a stored procedure that inserts a new row into a table:
 
 SQL
 
-
-
-
-CREATE PROCEDURE sp_insert_row@username VARCHAR(255),@password VARCHAR(255)ASBEGININSERT INTO users (username, password)VALUES (@username, @password);END;
+`CREATE PROCEDURE sp_insert_row@username VARCHAR(255),@password VARCHAR(255)ASBEGININSERT INTO users (username, password)VALUES (@username, @password);END;`
