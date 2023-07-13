@@ -30,7 +30,7 @@ This command would insert a new row into the users table with the username `admi
 
 ---
 
-<h4>Prepared Statement<h4>
+**Prepared Statement**
   
 A prepared statement is a type of SQL statement that is pre-compiled by the database. This means that the database can parse the statement once, and then reuse the compiled statement for subsequent executions. This can improve performance, especially for queries that are executed frequently.
 
