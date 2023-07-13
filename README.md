@@ -11,3 +11,6 @@
 **`Stored Procedure & Prepared Statement`** [here](https://github.com/Jkrathod/IMP-AppSec_Interview_QnA/blob/main/Stored%20Procedur%20&%20Prepared%20Statement.md)
 
 **`OAuth works and Attack`** [here](https://github.com/Jkrathod/IMP-AppSec_Interview_QnA/blob/main/OAuth%20works%20and%20Attack.md)
+
+**`SAML working and attacks`** [here](https://github.com/Jkrathod/IMP-AppSec_Interview_QnA/blob/main/SAML%20working%20and%20attacks.md)
+
