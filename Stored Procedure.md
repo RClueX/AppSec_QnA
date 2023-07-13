@@ -1,4 +1,4 @@
-**Stored Procedure**
+**`Stored Procedure`**
 
 A stored procedure is a group of SQL statements that are grouped together and stored in a database. Stored procedures can be used to perform a variety of tasks, such as:
 
@@ -30,7 +30,7 @@ This command would insert a new row into the users table with the username `admi
 
 ---
 
-**Prepared Statement**
+**`Prepared Statement`**
   
 A prepared statement is a type of SQL statement that is pre-compiled by the database. This means that the database can parse the statement once, and then reuse the compiled statement for subsequent executions. This can improve performance, especially for queries that are executed frequently.
 
