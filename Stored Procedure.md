@@ -19,7 +19,7 @@ SQL
 `CREATE PROCEDURE sp_insert_row@username VARCHAR(255),@password VARCHAR(255)ASBEGININSERT INTO users (username, password)VALUES (@username, @password);END;`
 
 ---
-This stored procedure has two parameters: username and password. These parameters are used to specify the values for the username and password columns in the users table.
+This stored procedure has two parameters: `username` and `password`. These parameters are used to specify the values for the `username` and `password` columns in the `users` table.
 
 To execute this stored procedure, you would use the following command:
 SQL
