@@ -565,7 +565,7 @@ The consequences of successful CRLF Injection can vary depending on the specific
 
 OS Command Injection and Remote Code Execution are both web application vulnerabilities that involve the execution of unauthorized commands or code on a target system. However, they differ in terms of the level of control and the extent of the executed code. Here's the difference between OS Command Injection and Remote Code Execution, along with examples:
 
-OS Command Injection:
+**OS Command Injection:**
 
 `Definition`: OS Command Injection occurs when an attacker is able to inject malicious commands into a system's command execution mechanism, typically by exploiting insecure handling of user input.
 
@@ -583,7 +583,7 @@ searchTerm = "'; rm -rf /;'"
 
 The injected command deletes files from the system, causing a potentially devastating impact.
 
-`Remote Code Execution`:
+**Remote Code Execution**
 
 `Definition`: Remote Code Execution (RCE) occurs when an attacker is able to execute arbitrary code on a target system or application.This is typically achieved by exploiting vulnerabilities that allow the attacker to inject and execute their own code.
 
@@ -645,7 +645,6 @@ Once the HSTS header is received and processed by the browser, it will automatic
 When conducting security testing of Android apps, reviewing the `AndroidManifest.xml` file is crucial. Here are some specific elements to examine in the `AndroidManifest.xml `
 
 file, along with examples:
-
 
 - Permissions:
 ```
@@ -721,10 +720,6 @@ Assess how sensitive data is stored and accessed. Check for backup settings, sto
 
 ---
 
-**`What is SSL Pinning in Android & how it can be bypassed?`**
-
-
-
 **`What is DNS Zone Transfer Attack ?`**
 
 A DNS Zone Transfer attack is a security vulnerability that targets the DNS (Domain Name System) protocol. It involves an unauthorized request to transfer the complete zone data or a subset of the data from a DNS server that is configured to allow zone transfers. This attack can potentially expose sensitive information about the targeted domain, including all associated DNS records.
@@ -754,6 +749,7 @@ To prevent DNS Zone Transfer attacks, it is recommended to implement the followi
     Regular Security Audits: Perform periodic security audits to check for misconfigurations and vulnerabilities in DNS servers, including potential zone transfer vulnerabilities.
 
 ---
+
 **`What is SMTP Relay attack ?`**
 
 **`What is SMB Relay ?`**
@@ -779,6 +775,10 @@ To prevent DNS Zone Transfer attacks, it is recommended to implement the followi
 **`What is SAML ? attacks & Recommandations ?`**
 
 **`what Oauth & how to exploit a misconfigured Oauth ?`**
+
+**`What is SSL Pinning in Android & how it can be bypassed?`**
+
+
 
 ---
 
