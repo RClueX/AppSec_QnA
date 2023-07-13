@@ -9,3 +9,5 @@
 **`XML External Entity (XXE)`** [here](https://github.com/Jkrathod/IMP-AppSec_Interview_QnA/blob/main/XML%C2%A0External%20Entity.md)
 
 **`Stored Procedure & Prepared Statement`** [here](https://github.com/Jkrathod/IMP-AppSec_Interview_QnA/blob/main/Stored%20Procedur%20&%20Prepared%20Statement.md)
+
+**`OAuth works and Attack`** [here](https://github.com/Jkrathod/IMP-AppSec_Interview_QnA/blob/main/OAuth%20works%20and%20Attack.md)
