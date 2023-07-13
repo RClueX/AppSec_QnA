@@ -378,11 +378,11 @@ Recommendations to mitigate session fixation attacks:
 
 Common flags on a cookie are attributes that can be set to modify the behavior and security of the cookie. Here are a few common flags:
 
-    Secure Flag: The Secure flag is used to ensure that the cookie is only transmitted over a secure (HTTPS) connection. It helps protect the cookie from being intercepted by attackers on unencrypted connections.
+- Secure Flag: The Secure flag is used to ensure that the cookie is only transmitted over a secure (HTTPS) connection. It helps protect the cookie from being intercepted by attackers on unencrypted connections.
 
-    HttpOnly Flag: The HttpOnly flag is a security measure that prevents client-side scripts, such as JavaScript, from accessing the cookie. By setting the HttpOnly flag, the cookie becomes inaccessible to client-side code, reducing the risk of cross-site scripting (XSS) attacks.
+- HttpOnly Flag: The HttpOnly flag is a security measure that prevents client-side scripts, such as JavaScript, from accessing the cookie. By setting the HttpOnly flag, the cookie becomes inaccessible to client-side code, reducing the risk of cross-site scripting (XSS) attacks.
 
-    SameSite Flag: The SameSite flag restricts the cookie's availability to cross-site requests. It can be set to three different values: "Strict" (cookie is only sent for same-site requests), "Lax" (cookie is sent for same-site requests and top-level navigation), or "None" (cookie is sent for all requests). Properly configuring the SameSite flag can help mitigate cross-site request forgery (CSRF) attacks.
+- SameSite Flag: The SameSite flag restricts the cookie's availability to cross-site requests. It can be set to three different values: "Strict" (cookie is only sent for same-site requests), "Lax" (cookie is sent for same-site requests and top-level navigation), or "None" (cookie is sent for all requests). Properly configuring the SameSite flag can help mitigate cross-site request forgery (CSRF) attacks.
 
 The HttpOnly flag specifically prevents client-side scripts from accessing the cookie. It is a security measure to mitigate XSS attacks, as XSS vulnerabilities allow malicious scripts to steal or manipulate sensitive information stored in cookies. By setting the HttpOnly flag, the cookie is restricted to server-side access only.
 
