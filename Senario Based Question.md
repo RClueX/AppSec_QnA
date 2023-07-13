@@ -158,6 +158,21 @@ Recommendations to mitigate XSS vulnerabilities:
 
 ---
 
+**`You logged into the application, you just changed your name using JWT token and logged out. JWT token expiry is 15 mins, what attack will you perform?`**
+
+If I logged into an application, changed my name using a JWT token, and then logged out, I could perform a JWT token expiry attack. This attack would involve stealing the JWT token before it expires, and then using it to access the application as the victim.
+The JWT token would contain the victim's name, as well as other information, such as their expiration time. If I could steal the token before it expired, I could use it to access the application as the victim for up to 15 minutes. This would allow me to do things like change the victim's name, view their private data, or even make unauthorized payments on their behalf.
+To prevent this attack, the application should implement a mechanism to revoke JWT tokens after they have expired. This could be done by storing the tokens in a database and then deleting them after they have expired. Alternatively, the application could use a blacklist to keep track of expired tokens.
+
+Here are some additional steps that could be taken to prevent JWT token expiry attacks:
+
+- Use short expiration times for JWT tokens. This will make it more difficult for attackers to steal tokens before they expire.
+- Use a strong cryptographic algorithm to sign JWT tokens. This will make it more difficult for attackers to forge tokens.
+- Validate the JWT token before it is accepted. This will help to ensure that the token is not tampered with.
+- Use a WAF to filter malicious traffic. This will help to prevent attackers from injecting malicious code into the application.
+
+By following these steps, applications can help to protect themselves from JWT token expiry attacks.
+
 **`Difference Between Ordinary XSS and DOM Based XSS:`**
 
 The main difference between ordinary XSS (also known as Reflected or Stored XSS) and DOM-based XSS lies in the location where the vulnerability is exploited and the way the malicious script is executed.
