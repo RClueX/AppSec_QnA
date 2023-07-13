@@ -7,18 +7,19 @@ Currently I am working remotely with an e-commerce client handling their web and
 
 #### `Web Application (AppSec) Approach`
 
-`First we need to understand what type of testing is required.It can be a Black Box or Grey Box.`
+```
+First we need to understand what type of testing is required.It can be a Black Box or Grey Box.
 
-`For Grey Box we first take walkthrough from client to understand the application and discuss in scope item.`
+For Grey Box we first take walkthrough from client to understand the application and discuss in scope item.
 
-`During the walktheough from the client,we asked regarding user roles.`
+During the walktheough from the client,we asked regarding user roles.
 
-`If there is multiple users,the request for two credentials of each user roles.`
+If there is multiple users,the request for two credentials of each user roles.
 
-`Once we receive all data , we do a walkthrough from our side to check everything is working fine.`
+Once we receive all data , we do a walkthrough from our side to check everything is working fine.
 
-`After checking the application we identify the positive test cases that can be perform.`
-
+After checking the application we identify the positive test cases that can be perform.
+```
 **Test Cases Include**
 
 1.Authenticated related
