@@ -173,6 +173,8 @@ Here are some additional steps that could be taken to prevent JWT token expiry a
 
 By following these steps, applications can help to protect themselves from JWT token expiry attacks.
 
+---
+
 **`Difference Between Ordinary XSS and DOM Based XSS:`**
 
 The main difference between ordinary XSS (also known as Reflected or Stored XSS) and DOM-based XSS lies in the location where the vulnerability is exploited and the way the malicious script is executed.
