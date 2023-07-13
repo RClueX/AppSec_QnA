@@ -827,6 +827,7 @@ Enumerating a database refers to the process of gathering information about the 
 
 - Information Schema Queries: Use information schema queries specific to the database platform to retrieve metadata about tables, columns, constraints, and other database objects. For example, in MySQL, you can query the INFORMATION_SCHEMA database to obtain relevant information.
 
+---
 
 **`What is SMTP Relay attack ?`**
 
