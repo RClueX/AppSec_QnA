@@ -1,4 +1,10 @@
-### Web Application (AppSec) Approach
+### Introduction as you’re an experienced application security consultant.
+
+I'll start by introducing myself. I'm working as an Application Security Consultant in Anzen technologies for the past 3 years. With 3 years of experience in Application Security, I've done many security assessments of web applications and mobile applications, and that making me specialized in web and mobile security.
+I've handled many projects for various clients of different sectors like e-commerce, health care, finance, telecom etc.
+Currently I am working remotely with an e-commerce client handling their web and mobile applications and working on the closure of the reported vulnerabilities.
+
+## Web Application (AppSec) Approach
 
 `First we need to understand what type of testing is required.It can be a Black Box or Grey Box.`
 
