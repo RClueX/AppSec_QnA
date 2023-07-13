@@ -17,3 +17,5 @@ Here is an example of a stored procedure that inserts a new row into a table:
 SQL
 
 `CREATE PROCEDURE sp_insert_row@username VARCHAR(255),@password VARCHAR(255)ASBEGININSERT INTO users (username, password)VALUES (@username, @password);END;`
+
+---
