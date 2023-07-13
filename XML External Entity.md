@@ -156,8 +156,8 @@ Basic entity test, when the XML parser parses the external entities the result s
 ```
 ---
 Types of XXE Attacks:
-- Exploiting XXE to retrieves files                                                       ---> [Commands]([[1 - XXE Retrieve Files]])
-- Exploiting XXE to perform SSRF attacks                                         ---> [Comamnds]([[2 - XXE SSRF attacks]])
-- Exploiting blind XXE to exfiltrate data out-of-band                       ---> [SQL]([[1 - Database]]) & [XML]([[3 - XXE (Blind)]])
-- Exploiting blind XXE to retrieve data via error messages              ---> [SQL]([[1 - Database]]) & [XML]([[3 - XXE (Blind)]])
+- Exploiting XXE to retrieves files                                                    
+- Exploiting XXE to perform SSRF attacks                                       
+- Exploiting blind XXE to exfiltrate data out-of-band                   
+- Exploiting blind XXE to retrieve data via error messages             
 ---
