@@ -41,7 +41,6 @@ Recommendations to mitigate insecure deserialization vulnerabilities:
 
 7. Security Testing: Regularly perform security testing, including both black box and white box techniques, to identify and address insecure deserialization vulnerabilities.
 
-Remember that secure deserialization is a multifaceted challenge, and it's important to consider a layered approach to application security, including input validation, secure coding practices, and adherence to secure development frameworks and guidelines.
 
 **`What is SQL Injection, Types of SQL Injection and Recommendations ? What is stored procedure are they secure against SQL Injection ?`**
 
