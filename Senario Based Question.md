@@ -597,11 +597,11 @@ Host: example.com
 
 `Exploited Request:`
 
+```
+GET /page.php?message=Hello%0D%0AInjectedHeader:malicious%0D%0AContent-Length:0%0D%0A HTTP/1.1
 
-`GET /page.php?message=Hello%0D%0AInjectedHeader:malicious%0D%0AContent-Length:0%0D%0A HTTP/1.1
-
-Host: example.com`
-
+Host: example.com
+```
 In this example, the attacker injects a CRLF sequence ("%0D%0A") into the "message" parameter. This results in the injection of two additional headers, "InjectedHeader: malicious" and "Content-Length: 0", into the HTTP response.
 
 The consequences of successful CRLF Injection can vary depending on the specific vulnerability being exploited and the server's behavior. It can lead to session hijacking, cache poisoning, cross-site scripting (XSS), or other attacks.
