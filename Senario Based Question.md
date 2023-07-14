@@ -86,7 +86,7 @@ Recommendations to mitigate insecure deserialization vulnerabilities:
 
 **`What is SQL Injection, Types of SQL Injection and Recommendations ? What is stored procedure are they secure against SQL Injection ?`**
 
-QL Injection is a web application vulnerability that occurs when an attacker can manipulate user-supplied input to execute arbitrary SQL commands on a database. It arises when input data is not properly validated or sanitized before being used in SQL queries. SQL Injection can lead to unauthorized data access, data manipulation, and in some cases, complete compromise of the underlying database.
+SQL Injection is a web application vulnerability that occurs when an attacker can manipulate user-supplied input to execute arbitrary SQL commands on a database. It arises when input data is not properly validated or sanitized before being used in SQL queries. SQL Injection can lead to unauthorized data access, data manipulation, and in some cases, complete compromise of the underlying database.
 
 Types of SQL Injection:
 
@@ -311,16 +311,16 @@ To protect against CSRF in JSON requests, the same recommendations apply:
 **`What is IDOR ? Diffrence between IDOR and Missing Function Level access control ? Recommendations ?`**
 
 IDOR (Insecure Direct Object References) is a web application vulnerability that occurs when an application exposes internal object references, such as database records or file paths, to unauthenticated or unauthorized users. Attackers can exploit IDOR vulnerabilities to access, modify, or delete sensitive data or resources without proper authorization.
-
+```
 Difference between IDOR and Missing Function Level Access Control:
-
+```
 IDOR and Missing Function Level Access Control are both vulnerabilities related to improper access controls, but they differ in their nature:
 
 - IDOR: IDOR specifically refers to the exposure of direct object references. It occurs when an attacker can manipulate parameters or values in requests to access or modify sensitive resources directly, bypassing intended access controls. For example, an attacker may change a numeric identifier in a URL or request parameter to access someone else's private data.
 
 - Missing Function Level Access Control: Missing Function Level Access Control, on the other hand, is a broader vulnerability that occurs when an application does not properly enforce access controls on certain functionality or actions. It means that the application fails to check if a user has the necessary privileges or permissions before performing a particular function. This can allow attackers to abuse or manipulate functionalities that should be restricted to specific users or roles.
 
-Recommendations to mitigate IDOR and Missing Function Level Access Control vulnerabilities:
+`Recommendations to mitigate IDOR and Missing Function Level Access Control vulnerabilities`:
 
 1. Implement Proper Access Controls: Ensure that your application has appropriate access controls in place for all sensitive resources and functionalities. Apply role-based access controls (RBAC) and enforce authorization checks at both the front-end and back-end.
 
