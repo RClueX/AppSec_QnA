@@ -10,3 +10,4 @@ Here is how OAuth works:
     The user grants or denies access.
     The authorization server returns a token to the website or application.
     The website or application uses the token to access the user's resources.
+![oauth2-auth-code-diagram](https://github.com/Jkrathod/IMP-AppSec_Interview_QnA/assets/110445358/962c643e-85d1-482d-a228-082a5394f8b3)
