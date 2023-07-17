@@ -1,4 +1,4 @@
-**`Server-Side Template Injection (SSTI)`**
+**`_ Server-Side Template Injection (SSTI)_`**
 
 Server-Side Template Injection (SSTI) is a vulnerability that occurs when an attacker can inject arbitrary code into a server-side template, leading to its execution on the server. This vulnerability is commonly found in web applications that use templates to render dynamic content.
 
@@ -74,6 +74,7 @@ By including curly braces into the body, you can run any JavaScript code:
 ```
 
 ---
+### Payloads
 
 **1.3.2 and below**
 ```
