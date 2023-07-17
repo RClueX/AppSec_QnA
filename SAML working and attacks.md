@@ -12,3 +12,9 @@ Consider the following scenario: A user is logged into a system that acts as an 
 6. The identity of the user is established and the user is provided with app access.
 
 ---
+
+### Attack Senario
+
+**Refer Link -**
+
+https://medium.com/stolabs/how-saml-works-and-some-attacks-on-it-2f62db0ef1d9
