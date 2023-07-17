@@ -14,7 +14,7 @@ Consider the following scenario: A user is logged into a system that acts as an 
 
 ---
 
-### Attack Senario
+### Attack Scenario 
 
 **Refer Link -**
 
