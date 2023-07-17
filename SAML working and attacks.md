@@ -17,4 +17,6 @@ Consider the following scenario: A user is logged into a system that acts as an 
 
 **Refer Link -**
 
-https://medium.com/stolabs/how-saml-works-and-some-attacks-on-it-2f62db0ef1d9
+1. https://medium.com/stolabs/how-saml-works-and-some-attacks-on-it-2f62db0ef1d9
+
+2. https://redsiege.com/tools-techniques/2021/11/attacking-saml-implementations/
