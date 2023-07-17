@@ -15,7 +15,7 @@ Here is how OAuth works:
 ---
 ---
 
-#### Attack Senario
+#### Attack Scenario 
 
 **Refer Link** - 
 
