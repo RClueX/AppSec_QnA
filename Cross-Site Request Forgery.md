@@ -6,7 +6,7 @@ When a website sends a data request to another website on behalf of a user along
 --- ---
 **`MITIGATION`**
 ```
-    1. Using CSRF tokens
+    1. Using Anti-CSRF tokens
     2. Double-Submitting Cookies
     3. Same-Site Cookies
     4. Enabling User Interaction
