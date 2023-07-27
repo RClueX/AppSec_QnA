@@ -88,6 +88,8 @@ Recommendations to mitigate insecure deserialization vulnerabilities:
 
 SQL Injection is a web application vulnerability that occurs when an attacker can manipulate user-supplied input to execute arbitrary SQL commands on a database. It arises when input data is not properly validated or sanitized before being used in SQL queries. SQL Injection can lead to unauthorized data access, data manipulation, and in some cases, complete compromise of the underlying database.
 
+`SQL Injection, which is a very common vulnerability in databases and web applications. This attack, which can be translated as SQL Injection, is a vulnerability that allows an attacker to access and modify data by sending various SQL queries to the database through the web application. These attacks are accomplished by abusing the way web applications handle user input, search queries, and other user interactions. Attackers try to capture sensitive data of web applications, crash web applications, and take control of web applications`
+
 Types of SQL Injection:
 
 `Classic SQL Injection`: The attacker injects malicious SQL statements into user input fields, such as login forms or search fields. These statements are then executed by the application's database, potentially giving the attacker unauthorized access or control over the database.
