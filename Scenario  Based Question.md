@@ -92,6 +92,9 @@ SQL Injection is a web application vulnerability that occurs when an attacker ca
 
 Types of SQL Injection:
 
+![2023-07-27 13_29_51-1690353310147 — Mozilla Firefox](https://github.com/Jkrathod/IMP-AppSec_Interview_QnA/assets/110445358/a7a11f79-7f64-4bc9-94ac-af12511f06d3)
+
+
 `Classic SQL Injection`: The attacker injects malicious SQL statements into user input fields, such as login forms or search fields. These statements are then executed by the application's database, potentially giving the attacker unauthorized access or control over the database.
 
 `Blind SQL Injection`: In this type, the attacker doesn't directly see the database output. However, they can exploit boolean-based or time-based techniques to infer information from the application's response, allowing them to extract sensitive data or modify the database indirectly.
