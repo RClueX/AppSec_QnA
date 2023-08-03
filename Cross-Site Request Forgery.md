@@ -155,3 +155,24 @@ More information check the following video ---> https://www.youtube.com/watch?v=
 
 ---
 
+##Extra Method##
+
+**The Seven Sins**
+
+- Anti-CSRF Tokens allow the server to uniquely distinguish who actually requests the resource/action, thereby preventing CSRF attacks. However, the following seven common implementation weaknesses enable attackers to bypass security:
+
+- Removing the Anti-CSRF Token: Completely removing the Anti-CSRF token parameter from the original request may allow to bypass CSRF protection due to lack of validation at server-side.
+
+- Altering the Anti-CSRF Token: When token checks are loosely handled, spoofing a same length token by changing some part of token may allow bypassing CSRF protection.
+
+- Using the Attacker’s Anti-CSRF Token: When the server only checks if a token is valid but does not check which user the token is associated with, an attacker can simply provide their own CSRF token to satisfy server’s check and bypass the CSRF protection.
+
+- Spoofing the Anti-CSRF Token: When tokens are generated using weak or no cryptography, an attacker may potentially generate spoofed tokens that impersonates other user in order to bypass CSRF protection.
+
+- Using guessable Anti-CSRF Tokens: When an application is using a fairy small or guessable token, an attacker can potentially try to guess or brute force a valid token for the victim user to bypass CSRF protection.
+
+- Stealing Anti-CSRF Tokens: When CSRF tokens are passed as cookie parameters without Secure and HTTPOnly flags, an attacker can potentially steal the CSRF token via XSS or other attacks.
+
+- Swapping HTTP Verbs: When applications do not implement the same levels of security in similar HTTP methods such as GET and POST, an attacker may be able to swap verbs to bypass security. This method is covered in the article The Dark Side of Request Routing.
+
+---
