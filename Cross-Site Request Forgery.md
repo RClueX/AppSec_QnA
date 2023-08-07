@@ -155,7 +155,7 @@ More information check the following video ---> https://www.youtube.com/watch?v=
 
 ---
 
-##Extra Method##
+##Extra Method
 
 **The Seven Sins**
 
