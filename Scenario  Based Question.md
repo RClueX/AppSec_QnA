@@ -1,8 +1,11 @@
 ### `Introduction as you’re an experienced application security consultant`.
 
-Good Morning, My Name is `XYZ`. I'm working as an Application Security Consultant in `XYZ` technologies for the past 2 years. With 2 years of experience in Application Security, I've done many security assessments of web applications and mobile applications, and that making me specialized in web and mobile security.
-I've handled many projects for various clients of different sectors like e-commerce, health care, finance, telecom etc.
-Currently I am working remotely with an e-commerce client handling their web and mobile applications and working on the closure of the reported vulnerabilities.
+Good morning, sir, my name is `abc`. 
+I am working as an `information security consultant` in `abcTechnology` for the past two years. 
+with two years of experience in `information security`, I have conducted many security assessments of Web Application Security, Mobile Security, Network VAPT, and API security.
+I have `handled many projects for various clients of different sector` including e-commerce, health care, finance, telecom, etc.
+Currently I am Working with an e-commerce client handling their web and mobile applications and on the closure of the reported vulnerabilities. 
+
 
 
 #### `Web Application (AppSec) Approach`
