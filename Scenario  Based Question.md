@@ -10,6 +10,7 @@ I have `handled many projects for various clients of different sector` including
 
 Currently I am Working with an e-commerce client handling their web and mobile applications and on the closure of the reported vulnerabilities. 
 
+---
 
 
 #### `Web Application (AppSec) Approach`
