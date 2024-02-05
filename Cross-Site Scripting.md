@@ -342,13 +342,14 @@ All Information ---> https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_E
 ---
 ---
 
-`X-XSS-Protection directives#`
-A 0 value disables the XSS Filter, as seen below.
+**X-XSS-Protection directives#**
 
-`X-XSS-Protection: 0;`
-A 1 value enables the XSS Filter. If a cross-site scripting attack is detected, in order to stop the attack, the browser will sanitize the page.
+`X-XSS-Protection: 0;`- 0 value disables the XSS Filter, as seen below.
 
-`X-XSS-Protection: 1;`
-A 1; mode=block value enables the XSS Filter. Rather than sanitize the page, when an XSS attack is detected, the browser will prevent rendering of the page.
 
-`X-XSS-Protection: 1; mode=block`
+`X-XSS-Protection: 1;` -  1 value enables the XSS Filter. If a cross-site scripting attack is detected, in order to stop the attack, the browser will sanitize the page.
+
+
+`X-XSS-Protection: 1; mode=block`- mode=block value enables the XSS Filter. Rather than sanitize the page, when an XSS attack is detected, the browser will prevent rendering of the page.
+
+
